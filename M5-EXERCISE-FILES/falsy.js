@@ -1,4 +1,4 @@
-// Simple function to log out truthyness
+// Simple function to log out truthiness
 const isTruthy = (name,exp) => {
     console.log(`${name}:${Boolean(exp)}`);
 }

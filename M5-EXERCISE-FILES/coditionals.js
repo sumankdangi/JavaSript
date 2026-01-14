@@ -26,3 +26,11 @@ else if (employee.numYearsService >= 22) {
     badgeColor = "No Badge";
 }
 console.log(`Years:${employee.numYearsService} Badge Color: ${badgeColor}`);
+
+// Evaluating multiple conditions for truthiness in all conditions
+if (employee.numYearsService >= 6 && employee.age >= 23 && employee.department==="Engineering") {
+    console.log("Employee meets criteria");
+}
+else{
+    console.log("Employee does not meet criteria");
+}
