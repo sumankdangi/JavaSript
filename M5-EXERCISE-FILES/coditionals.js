@@ -34,3 +34,23 @@ if (employee.numYearsService >= 6 && employee.age >= 23 && employee.department==
 else{
     console.log("Employee does not meet criteria");
 }
+
+// Evaluating multiple conditions for truthiness in any condition
+if (employee.numYearsService >= 3 || employee.age >= 30 || employee.department==="HR") {
+    console.log("Employee meets at least one criteria");
+}   
+
+// Evaluating for a condition to not be true
+if (employee.numYearsService>20 && !employee.isActive){
+    console.log("Employee is retired");
+}
+
+// Using ternary operator for conditional assignment
+if(employee.numYearsService>10){
+    employee.annualBonus = 1000;
+}
+else{
+    employee.annualBonus = 500;
+}
+employee.annualBonus = (employee.numYearsService>10) ? 1000 : 500;
+console.log(`Annual Bonus: $${employee.annualBonus}`);
