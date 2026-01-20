@@ -1,0 +1,77 @@
+[
+    {
+        "id": 0,
+        "email": "ab@gmail.com",
+        "firstName": "A",
+        "lastName": "B",
+        "dateOfBirth": "01-01-1990",
+        "isActive": true
+
+    },
+    {
+        "id": 1,
+        "email": "abc@gmail.com",
+        "firstName": "AB",
+        "lastName": "C",
+        "dateOfBirth": "02-02-1992",
+        "isActive": false
+    },
+
+    {
+        "id": 2,
+        "email": "abcd@gmail.com",
+        "firstName": "ABC",
+        "lastName": "D",
+        "dateOfBirth": "03-03-1994",
+        "isActive": true    
+    
+    },
+    {
+        "id": 3,
+        "email": "abcde@gmail.com",
+        "firstName": "ABCD",
+        "lastName": "E",
+        "dateOfBirth": "04-04-1996",
+        "isActive": false
+    },
+    {
+        "id": 4,
+        "email": "abcdef@gmail.com",
+        "firstName": "ABCDE",
+        "lastName": "F",
+        "dateOfBirth": "05-05-1998",
+        "isActive": true
+    },
+    {
+        "id": 5,
+        "email": "abcdefg@gmail.com",
+        "firstName": "ABCDEF",
+        "lastName": "G",
+        "dateOfBirth": "06-06-2000",
+        "isActive": false
+    },
+    {
+        "id": 6,
+        "email": "abcdefgh@gmail.com",
+        "firstName": "ABCDEFG",
+        "lastName": "H",
+        "dateOfBirth": "07-07-2002",
+        "isActive": true
+    },
+    {
+        "id": 7,
+        "email": "abcdefghi@gmail.com",
+        "firstName": "ABCDEFGH",
+        "lastName": "I",
+        "dateOfBirth": "08-08-2004",
+        "isActive": false
+    },
+    {
+        "id": 8,
+        "email": "abcdefghij@gmail.com",
+        "firstName": "ABCDEFGHI",
+        "lastName": "J",
+        "dateOfBirth": "09-09-2006",
+        "isActive": true
+    }
+]
